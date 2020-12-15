@@ -45,7 +45,7 @@ class Topnav extends Component {
     if (!running) {
       return (
         <div className="topnav">
-          <a href="http://127.0.0.1:3000">Profiilisivut</a>
+          <a href="http://127.0.0.1:5001">Profiilisivut</a>
           <a className="topic active">Kauppa</a>
           <button
             onClick={toShopcart}
@@ -59,7 +59,7 @@ class Topnav extends Component {
     } else {
       return (
         <div className="topnav">
-          <a href="http://127.0.0.1:3000">Profiilisivut</a>
+          <a href="http://127.0.0.1:5001">Profiilisivut</a>
           <a className="topic active">Ostoskärry</a>
           <button onClick={toShop} className="btn btn-primary btn-sm m-2 move">
             <FontAwesomeIcon icon={faShoppingCart} />
